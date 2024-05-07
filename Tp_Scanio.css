@@ -1,0 +1,124 @@
+:root{
+    --colorAzul:blue;
+}
+body{
+    background-color: darkblue;
+}
+h1{
+    color: aliceblue;
+}
+#titulo{
+    border:2px solid white;
+    background-color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    color:var(--colorAzul);
+    text-align: center;
+
+}
+#fondo{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    background-size: 200px;
+    background-position: center;
+    
+    
+}
+#gl{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    background-size: 500px;
+    background-position: center;
+    ;
+}
+
+.lista{
+    display: flex;
+}
+#maps{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    color:var(--colorAzul);
+    text-align: center;
+
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family:sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    color:var(--colorAzul);
+    text-align: center;
+    transition: 1s;
+}
+a:hover{
+    color: white;
+    font-size:30px ;
+    border:2px solid blue;
+    background-color: blue;
+
+    
+}
+
+.elemento{
+    display:flex;
+    margin: 100px 150px 0px 100px;
+    border:2px solid white;
+    background-color: antiquewhite;
+
+
+    text-decoration:none ;
+    
+}
+#ubicacion{
+    list-style-type: none;
+    text-decoration: none;
+    font-family:sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    color:var(--colorAzul);
+    text-align: center;
+    border:2px solid white;
+    background-color: antiquewhite;
+
+}
+#ubicacion:hover{
+    color: green;
+    font-size:30px ;
+    border:2px solid white;
+    background-color: white;
+
+}
+.e1{
+    display:flex;
+    margin: 0px 150px 100px 100px;
+    list-style-type: none;
+    font-family:sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    color:var(--colorAzul);
+    text-align: center;
+    transition: 1s;
+    border:2px solid white;
+    background-color: antiquewhite;
+    
+}
+.lis{
+    display: flex;
+}
